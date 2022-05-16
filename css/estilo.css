@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+header{
+    display: inline-block;
+    margin: 20px 0px 0px 110px;
+    height: 200px;
+}
+nav{
+    float: right;
+    margin: 50px 100px;
+}
+nav a{
+    text-decoration: none;
+    padding: 0 13px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.texto{
+    margin: 80px 0px 0px 110px;
+    width: 600px;
+}
+.texto h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.texto span{
+    color: #017143;
+}
+.texto p{
+    margin-top: 12px;
+    font-size: 21px;
+    text-align: justify;
+}
+.texto button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 20px 20px;
+    border: none;
+    background-color: #017143;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+ .texto button a{
+     text-decoration: none;
+     font-size: 18px;
+     color: white;
+ }
+ .meio .bola{
+    float: right;
+    margin-right: -400px;
+    margin-top: -300px;
+     width: 1000px;
+     height: 1000px;
+     background-color: #017143;
+     border-radius: 50%;
+ }
+ .meio .bola img{
+     margin-top: -20px;
+ }
+.meio .bola .icones{
+    width: 50px;
+    background-color: aqua;
+    margin: -360px 535px;
+
+}
+.meio .bola .icones img{
+    float: right;
+    text-align: right;
+    width: 60%;
+    display: block;
+    margin-top: 13px;
+}
+.meio .thumbs{
+    display: block;
+position: absolute;
+top: 670px;
+left: 400px;
+}
+
+.meio .thumbs img{
+    width: 30%;
+}
